@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank App</title>
+    <link rel="stylesheet" href="project-style.css"></head>
+<body>
+    <div class="container">
+        <h1>Bank App</h1>
+        <form>
+            <label for="transactionAmount">Transaction Amount:</label>
+            <input type="number" id="transactionAmount" placeholder="Enter Transaction Amount">
+        </form>
+        <div>
+            <button type="button" class="button" id="credit">Credit</button>
+            <button type="button" class="button" id="debit">Debit</button>
+        </div>
+        <div class="balance">Your Account Balance is: Rs.<span id="balance">0</span></div>
+        <button type="button" class="toggle-dark-mode" id="darkModeToggle">Toggle Dark Mode</button>
+    </div>
+    <script src="script1.js"></script> 
+</body>
+</html>
